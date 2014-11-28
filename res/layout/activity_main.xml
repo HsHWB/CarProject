@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pad.MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gray" >
+
+        <com.example.view.CircleImageView
+            android:id="@+id/buttonForLoGo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_title" 
+            android:textSize="35dp"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvWebConnection"
+            android:layout_marginRight="36dp"
+            android:text="时间"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/tvWebConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/tvTime"
+            android:layout_alignTop="@+id/tvTitle"
+            android:text="已连接"
+            android:textSize="24dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- 
+    <com.example.view.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+    	android:layout_height="100dp"
+    	/> -->
