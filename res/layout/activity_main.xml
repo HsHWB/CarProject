@@ -24,7 +24,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="@string/app_title" 
-            android:textSize="35dp"/>
+            android:textSize="35sp"/>
 
         <TextView
             android:id="@+id/tvTime"
@@ -32,18 +32,18 @@
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
             android:layout_below="@+id/tvWebConnection"
-            android:layout_marginRight="36dp"
+            android:layout_marginRight="5dp"
             android:text="时间"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/tvWebConnection"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
-            android:layout_alignLeft="@+id/tvTime"
+            android:layout_alignParentRight="true"
             android:layout_alignTop="@+id/tvTitle"
             android:text="已连接"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
 
     </RelativeLayout>
 
